@@ -1,73 +1,110 @@
-# Welcome to your Lovable project
+# School Management Web Application
 
-## Project info
+A modern **School Management Web Application** built with **React.js, TypeScript, Vite, Tailwind CSS, and shadcn/ui**. The application is designed to simplify and manage essential school operations through a clean, responsive, and user-friendly interface.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Features
 
-## How can I edit this code?
+* 👨‍🎓 **Student Management**
 
-There are several ways of editing your application.
+  * Add, update, view, and manage student information
+  * Student profiles and academic details
 
-**Use Lovable**
+* 💰 **Fee Management**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+  * Manage student fee records
+  * Track paid and pending fees
+  * View fee-related information
 
-Changes made via Lovable will be committed automatically to this repo.
+* 👨‍🏫 **Teacher Management**
 
-**Use your preferred IDE**
+  * Manage teacher information
+  * View teacher details and related records
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* 📚 **Course & Class Management**
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+  * Manage classes and courses
+  * Organize academic information
 
-Follow these steps:
+* 📊 **Dashboard**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+  * Overview of students, teachers, classes, and fees
+  * Quick access to important school information
+
+* 📱 **Responsive Design**
+
+  * Works smoothly on desktop, tablet, and mobile devices
+
+## Technologies Used
+
+* **React.js**
+* **TypeScript**
+* **Vite**
+* **Tailwind CSS**
+* **shadcn/ui**
+* **Lucide Icons**
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── pages/
+├── hooks/
+├── lib/
+├── assets/
+├── App.tsx
+└── main.tsx
+```
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
 git clone <YOUR_GIT_URL>
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 2. Navigate to the project
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+cd <PROJECT_FOLDER>
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at the local development URL provided by Vite.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Purpose
 
-**Use GitHub Codespaces**
+The main purpose of this project is to provide a centralized platform for managing school-related activities such as **students, teachers, classes, courses, and student fees**.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The project is designed with a scalable frontend architecture so that additional modules and backend APIs can be integrated in the future.
 
-## What technologies are used for this project?
+## Future Improvements
 
-This project is built with:
+* Student attendance management
+* Online fee payment
+* Examination and result management
+* Parent/Student login
+* Teacher login
+* Notifications
+* Reports and analytics
+* Backend API integration
+* Database integration
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Author
 
-## How can I deploy this project?
+**Mohd Hubaib Siddiqui**
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+BTech Computer Science & Engineering
+MTech Computer Science & Engineering
